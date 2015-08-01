@@ -1,0 +1,4 @@
+virtualhostsDirectory="/home/username/www/"
+domain="localhost"
+apacheVhostsDirectory="/etc/apache2/sites-available/"
+hostsFile="/etc/hosts"
