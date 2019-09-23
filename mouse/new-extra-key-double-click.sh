@@ -1,6 +1,6 @@
 #!/bin/bash
 
-buttonId=$(xinput --list | grep 'A4TECH USB.*keyboard' | grep -oE 'id=[0-9]+' | grep -oE '[0-9]+')
+buttonId=$(xinput --list | grep 'A4TECH USB Device Keyboard' | grep -oE 'id=[0-9]+' | grep -oE '[0-9]+')
 
 if [ -n "$buttonId" ]
 	then
